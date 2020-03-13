@@ -1,0 +1,293 @@
+.theme-nav {
+  font-size: 1.25em;
+  margin: 1.25em 1.5rem 0;
+  padding: 0 4px 2em;
+  position: relative;
+  overflow-y: hidden;
+}
+.theme-nav h2 {
+  color: #302b22;
+  font-size: 2em;
+  margin: 0.6em auto 1em;
+  text-align: center;
+}
+@media screen and (max-width: 360px) {
+  .theme-nav h2 {
+    font-size: 1.2em;
+  }
+}
+.theme-nav a.scroll {
+  border: 0;
+  display: inline-block;
+  font-size: 2.4em;
+  font-weight: bold;
+  line-height: 310px;
+  height: 310px;
+  position: absolute;
+  padding: 0 0.4em;
+}
+.theme-nav a.scroll.left {
+  left: 0;
+  padding-right: 0.6em;
+}
+.theme-nav a.scroll.right {
+  right: 0;
+  padding-left: 0.6em;
+}
+.theme-nav a.scroll,
+.theme-nav a.scroll:hover,
+.theme-nav a.scroll:focus {
+  color: inherit;
+  outline: 0;
+}
+@media only screen and (max-width: 640px) {
+  .theme-nav a.scroll {
+    height: 0.8em;
+    width: 0.5em;
+    line-height: 2em;
+    top: 5px;
+  }
+  .theme-nav a.scroll,
+  .theme-nav a.scroll.left,
+  .theme-nav a.scroll.right {
+    padding: 0;
+  }
+  .theme-nav a.scroll.left {
+    left: 30px;
+  }
+  .theme-nav a.scroll.right {
+    right: 30px;
+    text-align: right;
+  }
+}
+.theme-nav .scroll-bar {
+  border-bottom: 1px solid #1b1c18;
+  height: 0;
+  margin: 0 2em;
+  overflow: visible;
+  position: relative;
+}
+@media screen and (max-width: 640px) {
+  .theme-nav .scroll-bar {
+    display: none;
+  }
+  .theme-nav .scroll-bar a.scroll-bar-center {
+    display: none;
+  }
+}
+.theme-nav a.scroll-bar-center {
+  display: block;
+  background: #302b22;
+  border-radius: 100%;
+  position: absolute;
+  top: -0.5em;
+  width: 1em;
+  height: 1em;
+}
+.theme-nav ul {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 3em -100px;
+  padding: 0 0 100px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+@media screen and (max-width: 640px) {
+  .theme-nav ul {
+    margin: 0 0 -100px;
+  }
+}
+.theme-nav li {
+  display: inline-block;
+  font-size: 2em;
+  height: 310px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  width: 500px;
+  white-space: normal;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li {
+    background-size: contain;
+    font-size: 1.5em;
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    padding-top: 12%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .theme-nav li {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .theme-nav li {
+    font-size: 0.9em;
+  }
+}
+.theme-nav li.indigenous-people {
+  background: url("/img/themes/indigenous-people.jpeg");
+}
+.theme-nav li.indigenous-people.focus a p {
+  color: #deb1c1;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.indigenous-people a p {
+    color: #deb1c1;
+  }
+}
+.theme-nav li.eames {
+  background: url("/img/themes/eames.jpeg");
+}
+.theme-nav li.eames.focus a p {
+  color: #a9cce4;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.eames a p {
+    color: #a9cce4;
+  }
+}
+.theme-nav li.the-food-we-eat {
+  background: url("/img/themes/the-food-we-eat.jpeg");
+}
+.theme-nav li.the-food-we-eat.focus a p {
+  color: #c3efe9;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.the-food-we-eat a p {
+    color: #c3efe9;
+  }
+}
+.theme-nav li.mechanization {
+  background: url("/img/themes/mechanization.jpeg");
+}
+.theme-nav li.mechanization.focus a p {
+  color: #cda2ef;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.mechanization a p {
+    color: #cda2ef;
+  }
+}
+.theme-nav li.society {
+  background: url("/img/themes/society.jpeg");
+}
+.theme-nav li.society.focus a p {
+  color: #ffa500;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.society a p {
+    color: #ffa500;
+  }
+}
+.theme-nav li.transportation-and-communication {
+  background: url("/img/themes/transportation-and-communication.jpeg");
+}
+.theme-nav li.transportation-and-communication.focus a p {
+  color: #fffb1f;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.transportation-and-communication a p {
+    color: #fffb1f;
+  }
+}
+.theme-nav li.urban-development {
+  background: url("/img/themes/urban-development.jpeg");
+}
+.theme-nav li.urban-development.focus a p {
+  color: #ff4747;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.urban-development a p {
+    color: #ff4747;
+  }
+}
+.theme-nav li.communism {
+  background: url("/img/themes/communism.jpeg");
+}
+.theme-nav li.communism.focus a p {
+  color: #2ad89a;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.communism a p {
+    color: #2ad89a;
+  }
+}
+.theme-nav li.independent-people {
+  background: url("/img/themes/independent-people.jpeg");
+}
+.theme-nav li.independent-people.focus a p {
+  color: #ff96ff;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.independent-people a p {
+    color: #ff96ff;
+  }
+}
+.theme-nav li.revolution-and-stuff {
+  background: url("/img/themes/revolution-and-stuff.jpeg");
+}
+.theme-nav li.revolution-and-stuff.focus a p {
+  color: #d7d900;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.revolution-and-stuff a p {
+    color: #d7d900;
+  }
+}
+.theme-nav li.religion {
+  background: url("/img/themes/religion.jpeg");
+}
+.theme-nav li.religion.focus a p {
+  color: #ffc0cb;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.religion a p {
+    color: #ffc0cb;
+  }
+}
+.theme-nav li.alternative-history {
+  background: url("/img/themes/alternative-history.jpeg");
+}
+.theme-nav li.alternative-history.focus a p {
+  color: #2ad89a;
+}
+@media screen and (max-width: 500px) {
+  .theme-nav li.alternative-history a p {
+    color: #2ad89a;
+  }
+}
+.theme-nav li a {
+  color: inherit;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Vollkorn";
+  font-weight: bold;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.theme-nav li a:hover {
+  color: inherit;
+}
+.theme-nav li a p {
+  margin: 0.25em 0.85em;
+  padding: 0.125em 0;
+}
+.theme-nav li.focus a {
+  background: none;
+}
+.theme-nav li.focus a p {
+  text-shadow: 1px 1px #000;
+}
